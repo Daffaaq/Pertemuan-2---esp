@@ -102,6 +102,6 @@ hello, my name is John and I am a software engineer. I am 35 years old.
    message = template_str.substitute(verb= "passed" if score >=60 else "failed", suffix="with a score of " + str(score) if score < 60 else "")
 
    print(message) # output: You passed the exam.
-
-   Dalam contoh ini, kami menggunakan ekspresi bersyarat ( x if condition else y) untuk menentukan apakah siswa "lulus" atau "gagal" ujian berdasarkan nilai mereka. Kami juga menggunakan ekspresi bersyarat untuk menambahkan scoreakhiran ke pesan hanya jika siswa gagal dalam ujian. Kami menggabungkan string kosong ke akhiran jika siswa lulus, secara efektif melewatkannya.
    ```
+   Dalam contoh ini, kami menggunakan ekspresi bersyarat ( x if condition else y) untuk menentukan apakah siswa "lulus" atau "gagal" ujian berdasarkan nilai mereka. Kami juga menggunakan ekspresi bersyarat untuk menambahkan scoreakhiran ke pesan hanya jika siswa gagal dalam ujian. Kami menggabungkan string kosong ke akhiran jika siswa lulus, secara efektif melewatkannya.
+   
